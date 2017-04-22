@@ -112,4 +112,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void resetScore(View view){
+        scoreA = 0;
+        scoreB = 0;
+        txtViewTeamA.setText(String.valueOf(scoreA));
+        txtViewTeamB.setText(String.valueOf(scoreB));
+    }
+
 }
